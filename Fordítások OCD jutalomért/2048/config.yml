@@ -2,7 +2,7 @@
 #                                                                             #
 #                                2048 config                                  #
 #                                                                             #
-#                                  by Nikl                                    #
+#                                  by Sherox                                  #
 # ----------------------------------------------------------------------------#
 
 # name of the language file (in the folder 'language')
@@ -93,7 +93,7 @@ gameBox:
       skullLore:
       - ''
       - '&6Rank:&1 %rank%'
-      - '&6SPntszám:&1 %score%'
+      - '&6Pontszám:&1 %score%'
 
 
 rules:
