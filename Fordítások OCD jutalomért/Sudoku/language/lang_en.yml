@@ -5,36 +5,36 @@
 game:
   econ:
     # use %cost% for the amount payed
-    payed: " &2You paid &4%cost%"
-    notEnoughMoney: " &4You do not have enough money!"
+    payed: " &2Fizettél: &4%cost%"
+    notEnoughMoney: " &4Nincs Elég Pénzed!"
     # use %reward% for the amount the player won
-    wonMoney: " &2You won &6Sudoku&2 and got payed &6%reward%&2!"
+    wonMoney: " &2Nyertél &6Sudoku-ban&2 Nyereményed: &6%reward%&2!"
   inventoryTitles:
     gameTitle: "&9Sudoku             "
-    won: "&9Sudoku              &2You won!"
-  won: " &2You solved a &6Sudoku&2 puzzle."
+    won: "&9Sudoku              &2Nyertél!"
+  won: " &2Megoldottad &6Sudoku-t&2."
 
 
 prefix: "[&3Sudoku&r]"
 name: "&1Sudoku&r"
 
 restartButton:
-  displayName: "&c&lRestart"
+  displayName: "&c&lÚjra Indítás"
   lore:
   - ""
-  - "&6Double click to restart the puzzle"
+  - "&6Duplán Kattintva Újraindítod!"
 
 gameHelp:
-  - '&1&lSudoku is a logic game player on a 9x9 grid.'
-  - '&1&lThe grid is divided into 9 3x3 grids.'
+  - '&1&lSudoku egy Logikai Játék ami 9x9 Rácson Játszák.'
+  - '&1&lA 9 db Lap egy 3x3 rácson oszlik el.'
   - ''
-  - '&1&lTo win there have to be all numbers from 1 to 9'
-  - '  &1&lin each row, column and 3x3 grid'
-  - '&1&lAt the start of the game some numbers are set.'
-  - '  &1&lWith logic you have to find the other numbers.'
-  - '  &1&lLeft-click raises the value by one,'
-  - '  &1&lright-click lowers it by one.'
+  - '&1&lA Győzelemhez Minden Rácsban Szerepelnie kell 1-től 9.ig a számoknak'
+  - '  &1&lminden sorban, oszlopban és 3x3 rácsban'
+  - '&1&lA játék elején néhány szám rögzítve van.'
+  - '  &1&lA logikával meg kell találni a többi szám helyét.'
+  - '  &1&lA Bal Egérgombbal az Rácsban lévő számot növeled egyel,'
+  - '  &1&lA Jobb Egérgombbal az Rácsban lévő számot csökkented egyel.'
   - ''
-  - '&1&lIf you messed up and would like to restart,'
-  - '  &1&lpress the restart button in your'
-  - '  &1&llower inventory.'
+  - '&1&lHa elrontotta és újra szeretné kezdeni,'
+  - '  &1&lnyomja meg az újraindítás gombot a'
+  - '  &1&lAz Inventoryban.'
